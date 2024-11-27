@@ -146,7 +146,7 @@ copyButtons.forEach(button => {
             const name = document.getElementById('formGuestName').value;
             const message = document.getElementById('guestMessage').value;
 
-            fetch('hhttps://izzi-tita.glitch.me/messages', {
+            fetch('https://izzi-tita.glitch.me/messages', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
